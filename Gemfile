@@ -35,3 +35,5 @@ group :development, :test do
   gem 'cucumber-rails'
   gem 'capybara'
 end
+
+gem 'devise'

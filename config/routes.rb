@@ -1,4 +1,6 @@
 Creddit::Application.routes.draw do
+	
+	root :to => proc { [200, {}, ["Success"]] }
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
