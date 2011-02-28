@@ -6,10 +6,12 @@ Feature: Register User
   Scenario: Successful registration of an unidentifed user
     Given I am not identified
     And I am on the home page # says go to the home page via visit path_to(page_name)
-    When I click on signup
+    When I follow "Sign up"
     # Then I should see the user registration page -- dave recommends not doing this 
-    When I enter user details
-    And I press "Create"
-    Then I should be on successfuly registered page
-    And I should see "Signed up successfully"
+    When I fill in "Email" with "ashish@a.com"
+    And I fill in "Password" with "sehraa"
+    And I fill in "Password confirmation" with "sehraa"
+    And I press "Sign up"
+    Then I should be on the home page
+    And I should see "You have signed up successfully."
     

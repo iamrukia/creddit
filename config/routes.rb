@@ -1,8 +1,10 @@
 Creddit::Application.routes.draw do
 	
+  get "creddit_url/index"
+
   devise_for :users
 
-	root :to => proc { [200, {}, ["Success"]] }
+	root :to => "creddit_url#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
