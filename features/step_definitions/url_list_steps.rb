@@ -18,3 +18,7 @@ Given /^the following posts exist:$/ do |table|
     Post.create!(attributes)
   end
 end
+
+Given /^there are no posts$/ do
+  Post.delete_all
+end

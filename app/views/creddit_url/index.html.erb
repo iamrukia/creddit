@@ -1,6 +1,6 @@
 <h1>CredditUrl#index</h1>
+<% unless @posts.empty? %>
 <table>
-
 <% @posts.each do |post| %>
   <tr>
     <td><%= link_to post.title, post.posted_url %></td>
@@ -8,3 +8,6 @@
   </tr>
 <% end %>
 </table>
+<% else %>
+    <p>No Posts</p>
+<% end %>
