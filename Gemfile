@@ -35,5 +35,7 @@ group :development, :test do
   gem 'cucumber-rails'
   gem 'capybara'
 end
+  
+gem "launchy", :group => :test
 
 gem 'devise'

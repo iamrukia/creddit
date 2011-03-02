@@ -11,7 +11,6 @@ Feature: View URL list at homepage
      |title|posted_url  | user    |
      |foo  |example.com |foo@f.com|
 
-  @needs_fake_post_db
   Scenario: Show posts on home page
     Given I am on the home page
     Then I should see the list of posted URLs:

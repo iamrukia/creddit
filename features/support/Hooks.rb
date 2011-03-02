@@ -1,4 +1,3 @@
-Before("@needs_fake_post_db") do
-  # seeds?
-  # factorygirl?
+After do |s|
+  Then "show me the page" if s.failed?
 end

@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2ecb8d04-60a7-41de-b8f3-7a2d02b29ee3" name="Default" comment="">
       <change type="MOVED" beforePath="$PROJECT_DIR$/features/support/Hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/creddit.iml" afterPath="$PROJECT_DIR$/.idea/creddit.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/creddit_url_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/creddit_url_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/creddit_url/index.html.erb" afterPath="$PROJECT_DIR$/app/views/creddit_url/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/url_list_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/url_list_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/user_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/user_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/url_list.feature" afterPath="$PROJECT_DIR$/features/url_list.feature" />
     </list>
     <ignored path="creddit.iws" />
@@ -36,7 +33,25 @@
       <file leaf-file-name="url_list.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/url_list.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="35" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_steps.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/user_steps.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="46" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/user.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="4" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -45,7 +60,16 @@
       <file leaf-file-name="hooks.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="2" selection-start="813" selection-end="813" vertical-scroll-proportion="0.50569475">
               <folding />
             </state>
           </provider>
@@ -69,15 +93,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20110301154426_create_posts.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20110301154426_create_posts.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="23" selection-start="127" selection-end="134" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="post.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/post.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,28 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/creddit_url/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.14336918">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20110301172228_add_user_to_post.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20110301172228_add_user_to_post.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="22" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="-5.714286">
               <folding />
             </state>
           </provider>
@@ -166,11 +163,12 @@
         <option value="$PROJECT_DIR$/features/user.feature" />
         <option value="$PROJECT_DIR$/db/migrate/20110301171354_add_userid_to_post.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20110301172228_add_user_to_post.rb" />
-        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
-        <option value="$PROJECT_DIR$/features/url_list.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/url_list_steps.rb" />
         <option value="$PROJECT_DIR$/app/controllers/creddit_url_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/creddit_url/index.html.erb" />
+        <option value="$PROJECT_DIR$/features/url_list.feature" />
+        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -734,20 +732,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/user.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="4" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20110228150023_devise_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -769,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/user_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="46" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20110301172228_add_user_to_post.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="22" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
@@ -793,27 +770,6 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20110301154426_create_posts.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="23" selection-start="127" selection-end="134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/web_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/url_list.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="35" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -841,7 +797,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/creddit_url/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.14336918">
+        <state line="10" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="-5.714286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/web_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/user.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="4" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/user_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="46" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/url_list.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="2" selection-start="813" selection-end="813" vertical-scroll-proportion="0.50569475">
           <folding />
         </state>
       </provider>
