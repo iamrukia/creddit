@@ -3,7 +3,17 @@ Feature: View URL list at homepage
   As a user
   I want to be able to see the links on Creddit's home page
 
-  Scenario:
+  Background:
+    Given the following users exist:
+     |email    | password|
+     |foo@f.com| password|
+    And the following posts exist:
+     |title|posted_url  | user    |
+     |foo  |example.com |foo@f.com|
+
+  @needs_fake_post_db
+  Scenario: Show posts on home page
     Given I am on the home page
-    And some URLs have been posted
-    Then I should see the list of posted URLs
+    Then I should see the list of posted URLs:
+     |title|posted_url  | user    |
+     |foo  |example.com |foo@f.com|
