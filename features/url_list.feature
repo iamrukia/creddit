@@ -13,9 +13,9 @@ Feature: View URL list at homepage
      |email    | password|
      |foo@f.com| password|
     And the following posts exist:
-     |title|posted_url  | user    |
-     |foo  |example.com |foo@f.com|
+     |title|posted_url             | user    |
+     |foo  |http://www.example.com |foo@f.com|
     Given I am on the home page
     Then I should see the list of posted URLs:
-     |title|posted_url  | user    |
-     |foo  |example.com |foo@f.com|
+     |title|posted_url             | user    |
+     |foo  |http://www.example.com |foo@f.com|

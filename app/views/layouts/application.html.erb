@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Creddit</title>
+  <title>©Reddit</title>
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
+  <%= yield :page_load %>
 </head>
 <body>
 
@@ -17,6 +18,8 @@
     <%= link_to "Sign in", new_user_session_path %>
   <% end %>  
 </div>
+
+<h1>©Reddit</h1>
 
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
