@@ -1,6 +1,9 @@
 class CredditUrlController < ApplicationController
   def index
-    @posts = Post.all
+    @creddit_urls = Post.all
   end
 
+  def new
+    @creddit_url = Post.new
+  end
 end
