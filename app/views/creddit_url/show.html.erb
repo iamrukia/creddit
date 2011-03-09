@@ -1,0 +1,3 @@
+<%= link_to @creddit_url.title, @creddit_url.posted_url%>
+<% u = User.find(@creddit_url.user_id) %>
+ posted by <%= u.email %>

@@ -11,3 +11,4 @@ Feature: posting new links
     And I fill in "URL" with "http://www.something.com"
     And I press "Post"
     Then I should see "URL has been posted successfully"
+    And I should see "posted by a@b.com"
