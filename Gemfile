@@ -39,3 +39,5 @@ end
 gem "launchy", :group => :test
 
 gem 'devise'
+
+gem 'dynamic_form'

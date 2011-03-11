@@ -14,7 +14,7 @@ class CredditUrlController < ApplicationController
       flash[:notice] = "URL has been posted successfully"
       redirect_to creddit_url_path(@creddit_url)
     else
-      flash[:error] = "URL could not be posted"
+      flash[:alert] = "URL could not be posted"
       render :action => "new"
     end
   end
