@@ -22,8 +22,10 @@
         <td><%= link_to post.title, post.posted_url %></td>
         <td><%= post.user.email %></td>
         <td>
-          <%= link_to image_tag("up-arrow.png", :size => "20x20"), "#", :class => "up-vote" %>
-          <%= link_to image_tag("down-arrow.png", :size => "20x20"), "#", :class => "down-vote" %>
+          <% if current_user %>
+            <%= link_to image_tag("up-arrow.png", :size => "20x20"), "#", :class => "up-vote" %>
+            <%= link_to image_tag("down-arrow.png", :size => "20x20"), "#", :class => "down-vote" %>
+           <%end%>
         </td>
       </tr>
     <% end %>
