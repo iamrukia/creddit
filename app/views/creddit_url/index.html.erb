@@ -5,6 +5,11 @@
 	});
 	</script>
 <%end%>
+
+<% if user_signed_in? %>
+  <%= link_to "Submit a link", new_creddit_url_path %>
+<% end %>
+
 <div id="tabs">
     <ul>
       <li><a href="#tab-1">Whats hot</a></li>
@@ -15,9 +20,9 @@
     <p>Hot posts should be shown here based on some ranking.</p>
   </div>
   <div id="tab-2">
-    <% unless @posts.empty? %>
+    <% unless @creddit_urls.empty? %>
     <table>
-    <% @posts.each do |post| %>
+    <% @creddit_urls.each do |post| %>
       <tr class="post">
         <td><%= link_to post.title, post.posted_url %></td>
         <td><%= post.user.email %></td>

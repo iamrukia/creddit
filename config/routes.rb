@@ -1,6 +1,6 @@
 Creddit::Application.routes.draw do
 	
-  get "creddit_url/index"
+  resources :creddit_url
 
   devise_for :users
 

@@ -1,0 +1,14 @@
+<%= form_for(@creddit_url, :url => {:controller => :creddit_url} ) do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </p>
+    <p>
+      <%= f.label :posted_url, "URL" %><br>
+      <%= f.text_field :posted_url %>
+    </p>
+
+    <%= f.submit %>
+<% end %>
+
