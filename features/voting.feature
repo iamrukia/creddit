@@ -27,3 +27,19 @@ Feature: Voting on URLs
     When I go to the home page
     Then I should not see an up-vote button for "http://www.example.com"
     And I should not see a down-vote button for "http://www.example.com" 
+
+  Scenario: Don't display voting buttons for a logged in user on his own url
+    Given the following users exist:
+      |email    | password|
+      |foo@f.com| password|
+      |bar@f.com| password|
+    And I log in with "foo@f.com" and "password"
+    And the following posts exist:
+     |title |posted_url              | user    |
+     |foo   |http://www.example.com  |bar@f.com|
+     |foo2  |http://www.example2.com |foo@f.com|
+    When I go to the home page
+    Then I should see an up-vote button for "http://www.example.com"
+    And I should see a down-vote button for "http://www.example.com"
+    And I should not see an up-vote button for "http://www.example2.com"
+    And I should not see a down-vote button for "http://www.example2.com"
