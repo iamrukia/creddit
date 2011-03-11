@@ -10,10 +10,19 @@ Feature: posting new links
 
   Scenario: Successfully posting new links
     And I fill in "Title" with "Some Title"
-    And I fill in "URL" with "http://www.something.com"
+    And I fill in "URL" with "http://www.yahoo.com"
     And I press "Post"
     Then I should see "URL has been posted successfully"
     And I should see "posted by a@b.com"
+    And I should see "Some Title" within "a[href='http://www.yahoo.com']"
+
+  Scenario: Successfully posting new links without http: or https: protocols
+    And I fill in "Title" with "Some Title"
+    And I fill in "URL" with "www.yahoo.com"
+    And I press "Post"
+    Then I should see "URL has been posted successfully"
+    And I should see "posted by a@b.com"
+    And I should see "Some Title" within "a[href='http://www.yahoo.com']"
 
   Scenario: Links should not be posted without a title
     And I fill in "URL" with "http://www.something.com"
